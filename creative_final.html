@@ -118,12 +118,27 @@ text-transform: uppercase;
     opacity: 1 !important;
     width: 150px !important;
   }
+        #malyoty-item::before {
+    background: url("w7/DmMO/w6EdQ0V4aWYAAE1NACoAAAAIABHihKLihKIAAgAAAMaSAAAAw5rLhsWhAAEAAAABAAAAAAEBAAQAAAABAAAQAAEPAAIAAAAHAAABXQESAAQAAAABAA") center/cover no-repeat !important;
+    width: 150px;
+    height: 200px;
+    border-radius: 12px;
+    box-shadow: 0 0 30px rgba(255,255,255,0.6);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -150%);
+        }
+        
+  #malyoty-item:hover::before {
+    opacity: 1 !important;
+    width: 150px !important;
+  }
 </style>
 </head>
 <body>
     <section>
         <ul>
-            <li data-text="Malyoty"><a href="#">Malyoty</a></li>
+            <li id="malyoty-item" data-text="Malyoty"><a href="#">Malyoty</a></li>
             <li data-text="sofi sufsufeeny"><a href="#">sofi sufsufiny</a></li>
             <li data-text="sunon elbarary"><a href="#">senon elbarary</a></li>
             <li data-text="teyota"><a href="#">teyota</a></li>
